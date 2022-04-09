@@ -13,10 +13,10 @@ const port = process.env.PORT || 8080;
 // the mysql.createConnection function takes in a configuration object which contains host, user, password and the database name.
 //mysql://ba9565c7d6951a:5230e113@us-cdbr-iron-east-02.cleardb.net/heroku_f254459ae2fc71b?reconnect=true 
 const db_config = {
-    host: 'us-cdbr-iron-east-02.cleardb.net',
-    user: 'b22789322cfb92', // your database username
-    password: 'b7499b6f', // your database password
-    database: 'heroku_fb4bfcaea035c93',  // FYI export the tshirtshop.sql to this database
+    host: 'awseks.czojgjwy6aok.ap-south-1.rds.amazonaws.com',
+    user: 'timeline', // your database username
+    password: 'password', // your database password
+    database: 'timeline',  // FYI export the tshirtshop.sql to this database
     multipleStatements: true
 }
 
